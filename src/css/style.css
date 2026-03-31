@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+}
+
+
+.divPai{
+    background: 
+    linear-gradient(to right, rgba(50, 5, 95, 0.6), rgba(210, 219, 77, 0.4)),  
+    url("../assets/imgs/garrafas.png.png");
+    background-repeat: no-repeat, no-repeat;
+    background-position: center, center;
+    background-size: 100% 100%, 52%;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.card{
+    background-color: rgba(201, 214, 163, 0.8);
+    border-radius: 40px;
+    width: 370px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card h1{
+    font-family: 'Crimson Pro', serif;
+    font-size: 40px;
+    color: #000000;
+    margin-bottom: -25px;
+}
+
+.card h2{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    color: #000000;
+    margin: 50px;
+    font-weight: 50;
+    text-align: center;
+    margin-bottom: -10px;
+}
+
+
